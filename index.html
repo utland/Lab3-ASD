@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Graphical representation of graphs</title>
+    <style>
+        .wrapper {
+            display: flex;
+            gap: 80px;
+        }
+
+        body {
+            text-align: center;
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+        }
+
+        .block {
+            border: 2px, solid, red;
+        }
+    </style>
+</head>
+<body>
+    <div class="wrapper">
+        <div class="block">
+            <h1>Direct graph</h1>
+            <canvas id="graphCanvas1" width="500" height="500"></canvas>
+        </div>
+        <div class="block">
+            <h1>Undirect graph</h1>
+            <canvas id="graphCanvas2" width="500" height="500"></canvas>
+        </div>
+    </div>
+    <script type="module" src="dist/main.js"></script>
+</body>
+</html>
